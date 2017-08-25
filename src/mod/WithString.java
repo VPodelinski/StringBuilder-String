@@ -9,7 +9,7 @@ public  class WithString {
         long t = System.currentTimeMillis();
 
         for(int i = 1; i <=count; i++){
-            s+= " word"+i +" ";
+            s += " word" + i + " ";
         }
 
         System.out.println("Total time String (sec): " + ((System.currentTimeMillis() - t) / 1000));
